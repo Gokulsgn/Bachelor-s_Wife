@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Streamlit app configuration
+st.set_page_config(page_title="Bachelor'S Wife", page_icon=":👨‍🍳:", layout="wide")
+
 # Recipe data
 recipes = {
     "Lentil Balls": {
